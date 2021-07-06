@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Verifying Adactine Details with valid credential",
+        "description": "",
+        "id": "verifying-adactine-details;verifying-adactine-details-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16968397800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in on Adactine Login Page",
+            "match": {
+              "location": "LoginPageStep.user_in_on_Adactine_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1948335100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Kamaleshwar\" and \"Kamal@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamaleshwar\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kamal@2017\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPageStep.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1677716800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "On Search Hotel PageUser should select details and click on search button",
+            "match": {
+              "location": "LoginPageStep.on_Search_Hotel_PageUser_should_select_details_and_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 775182500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "On Search Hotel page User should select Hotel and click Continue",
+            "match": {
+              "location": "LoginPageStep.on_Select_Hotel_page_User_should_select_Hotel_and_click_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 562750700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "On Booking Page User should enter \"Kamaleshwar\",\"Murthy\" and \"Chennai, Tamilnadu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamaleshwar\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Murthy\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Chennai, Tamilnadu\"",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginPageStep.on_Booking_Page_User_should_enter_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794470500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should Enter credit card details",
+            "match": {
+              "location": "LoginPageStep.user_should_Enter_credit_card_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Credit Card No.",
+                  "Credit Card Type",
+                  "Expiry Month",
+                  "Expiry Year",
+                  "CVV Number"
+                ]
+              },
+              {
+                "cells": [
+                  "1111222233334444",
+                  "American Express",
+                  "July",
+                  "2022",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "2222333344445555",
+                  "VISA",
+                  "July",
+                  "2022",
+                  "325"
+                ]
+              },
+              {
+                "cells": [
+                  "5555666644448888",
+                  "Master Card",
+                  "July",
+                  "2022",
+                  "562"
+                ]
+              },
+              {
+                "cells": [
+                  "5555666688889999",
+                  "Other",
+                  "July",
+                  "2022",
+                  "659"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5142616500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter cvvNum and click BookNow button",
+            "match": {
+              "location": "LoginPageStep.user_should_enter_cvvNum_and_click_BookNow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 834325300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should print Booking order number",
+            "match": {
+              "location": "LoginPageStep.user_should_print_Booking_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1529984900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should verify success message",
+            "match": {
+              "location": "LoginPageStep.user_shoud_verify_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactine Details",
+    "description": "",
+    "id": "verifying-adactine-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
